@@ -12,12 +12,12 @@ const menu = require("./lib/menu.js");
 const donate = require("./lib/donate.js");
 const info = require("./lib/info.js");
 //
-const BotName = 'ReVolt-Bot'; // Nama Bot Whatsapp
-const instagramlu = 'https://www.instagram.com/revolt_144/'; // Nama Instagramlu cok
-const whatsapplu = '0831-6444-5159'; // Nomor whatsapplu cok
-const kapanbotaktif = 'Diusahakan 24 Jam'; // Kapan bot lu aktif
-const grupch1 = 'https://chat.whatsapp.com/KBt8lh74kvUJ6gunrVkco4'; // OFFICIAL GRUP LU 1
-const grupch2 = 'https://chat.whatsapp.com/CBnG0Ks2SRtJ1oGv1j1fZG'; // OFFICIAL GRUP LU 2
+const BotName = 'BOT ./MrG3P5'; // Nama Bot Whatsapp
+const instagramlu = 'https://www.instagram.com/mrg3p5_id/'; // Nama Instagramlu cok
+const whatsapplu = '0895-2325-8649'; // Nomor whatsapplu cok
+const kapanbotaktif = '24 Jam'; // Kapan bot lu aktif
+const grupch1 = 'https://chat.whatsapp.com/L0jifxElwo6B2QyxuabLtU'; // OFFICIAL GRUP LU 1
+const grupch2 = 'https://chat.whatsapp.com/CxrUD2MnUv5KGko3CsW6DT'; // OFFICIAL GRUP LU 2
 //
 const
 {
@@ -63,11 +63,11 @@ fs.existsSync('./session.json') && conn.loadAuthInfo('./session.json')
 //conn.connectOptions.agent = ProxyAgent ('http://1.0.180.120:8080')
 conn.connect();
 
-conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by Root@ReVolt`))
+conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by Root@MrG3P5`))
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by Root@ReVolt`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by Root@MrG3P5`)
 })
 
 conn.on('message-new', async(m) =>
